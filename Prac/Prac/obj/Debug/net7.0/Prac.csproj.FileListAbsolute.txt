@@ -13,3 +13,18 @@ C:\Users\Enigma\source\repos\Prac\Prac\obj\Debug\net7.0\refint\Prac.dll
 C:\Users\Enigma\source\repos\Prac\Prac\obj\Debug\net7.0\Prac.pdb
 C:\Users\Enigma\source\repos\Prac\Prac\obj\Debug\net7.0\Prac.genruntimeconfig.cache
 C:\Users\Enigma\source\repos\Prac\Prac\obj\Debug\net7.0\ref\Prac.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\bin\Debug\net7.0\Prac.exe
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\bin\Debug\net7.0\Prac.deps.json
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\bin\Debug\net7.0\Prac.runtimeconfig.json
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\bin\Debug\net7.0\Prac.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\bin\Debug\net7.0\Prac.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.csproj.AssemblyReference.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.AssemblyInfoInputs.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.AssemblyInfo.cs
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.csproj.CoreCompileInputs.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\refint\Prac.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\Prac.genruntimeconfig.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Prac\obj\Debug\net7.0\ref\Prac.dll

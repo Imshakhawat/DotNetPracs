@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Prac\\Prac.csproj",
-      "projectName": "Prac",
-      "projectPath": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Prac\\Prac.csproj",
+      "projectUniqueName": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Linq\\Linq.csproj",
+      "projectName": "Linq",
+      "projectPath": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Linq\\Linq.csproj",
       "packagesPath": "C:\\Users\\BS1027\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Prac\\obj\\",
+      "outputPath": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Linq\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BS1027\\AppData\\Roaming\\NuGet\\NuGet.Config",

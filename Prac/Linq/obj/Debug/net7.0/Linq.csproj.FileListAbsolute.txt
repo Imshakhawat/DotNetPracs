@@ -1,0 +1,15 @@
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\Linq.exe
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\Linq.deps.json
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\Linq.runtimeconfig.json
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\Linq.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\Linq.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.csproj.AssemblyReference.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.AssemblyInfoInputs.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.AssemblyInfo.cs
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.csproj.CoreCompileInputs.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\refint\Linq.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.genruntimeconfig.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\ref\Linq.dll
