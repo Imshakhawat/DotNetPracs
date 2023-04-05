@@ -20,7 +20,30 @@ using Linq.LinqExamples;
 
 ProjectIons projectIons = new ProjectIons();
 
-projectIons.SelectProperty();
+//projectIons.SelectProperty();
+//projectIons.SelectSyntax();
+projectIons.TransformWithSelect();
+
+projectIons.IndexedSelectMany();
+projectIons.SelectMultipleWhereClauses();
+projectIons.SelectManyWhereAssignment();
+    projectIons.SelectManyWithWhere();
+    projectIons.SelectFromChildSequence();
+    projectIons.SelectFromMultipleSequences();
+    projectIons.SelectWithWhere();
+    projectIons.SelectWithIndex();
+    projectIons.SelectPropertySubset();
+    projectIons.SelectTupleConstructions();
+    projectIons.SelectAnonymousConstructions();
+    projectIons.SelectByCaseTuple();
+    projectIons.SelectByCaseAnonymous();
+    
+
+
+
+
+
+
 
 
 
