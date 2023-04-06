@@ -1,0 +1,15 @@
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\bin\Debug\net7.0\tester.exe
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\bin\Debug\net7.0\tester.deps.json
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\bin\Debug\net7.0\tester.runtimeconfig.json
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\bin\Debug\net7.0\tester.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\bin\Debug\net7.0\tester.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.csproj.AssemblyReference.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.AssemblyInfoInputs.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.AssemblyInfo.cs
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.csproj.CoreCompileInputs.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\refint\tester.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\tester.genruntimeconfig.cache
+D:\Codes\VS 2022\DotNetPracs\Prac\tester\obj\Debug\net7.0\ref\tester.dll

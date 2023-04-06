@@ -18,6 +18,8 @@ namespace Linq.LinqExamples
                 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
                 int i = 0;
+
+
                 var q = from n in numbers
                         select ++i;
 

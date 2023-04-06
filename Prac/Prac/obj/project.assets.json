@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Linq/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "tester": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Linq.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Linq.dll": {}
+        }
+      },
+      "tester/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/tester.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/tester.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Linq/1.0.0": {
+      "type": "project",
+      "path": "../Linq/Linq.csproj",
+      "msbuildProject": "../Linq/Linq.csproj"
+    },
+    "tester/1.0.0": {
+      "type": "project",
+      "path": "../tester/tester.csproj",
+      "msbuildProject": "../tester/tester.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Linq >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BS1027\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Linq\\Linq.csproj": {
+              "projectPath": "D:\\Codes\\VS 2022\\DotNetPracs\\Prac\\Linq\\Linq.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

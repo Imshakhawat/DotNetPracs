@@ -19,25 +19,41 @@ using Linq.LinqExamples;
 //}
 
 ProjectIons projectIons = new ProjectIons();
+//projectIons.SelectSyntax();
 
 //projectIons.SelectProperty();
-//projectIons.SelectSyntax();
-projectIons.TransformWithSelect();
 
-projectIons.IndexedSelectMany();
-projectIons.SelectMultipleWhereClauses();
-projectIons.SelectManyWhereAssignment();
-    projectIons.SelectManyWithWhere();
-    projectIons.SelectFromChildSequence();
-    projectIons.SelectFromMultipleSequences();
-    projectIons.SelectWithWhere();
-    projectIons.SelectWithIndex();
-    projectIons.SelectPropertySubset();
-    projectIons.SelectTupleConstructions();
-    projectIons.SelectAnonymousConstructions();
-    projectIons.SelectByCaseTuple();
-    projectIons.SelectByCaseAnonymous();
-    
+//projectIons.TransformWithSelect();
+
+//projectIons.SelectFromMultipleSequences();
+
+//projectIons.SelectAnonymousConstructions();
+
+//projectIons.SelectPropertySubset();
+
+//projectIons.SelectWithWhere();
+
+//projectIons.SelectFromMultipleSequences();
+
+//projectIons.SelectManyWithWhere();
+
+
+//projectIons.SelectMultipleWhereClauses();
+
+//projectIons.IndexedSelectMany();
+
+
+
+
+
+
+
+
+JoinOperations join = new JoinOperations();
+
+join.CrossJoinQuery();
+
+
 
 
 

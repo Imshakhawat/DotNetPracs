@@ -13,3 +13,9 @@ D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\refint\Linq.dll
 D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.pdb
 D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.genruntimeconfig.cache
 D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\ref\Linq.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\tester.deps.json
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\tester.runtimeconfig.json
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\tester.exe
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\tester.dll
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\bin\Debug\net7.0\tester.pdb
+D:\Codes\VS 2022\DotNetPracs\Prac\Linq\obj\Debug\net7.0\Linq.csproj.CopyComplete

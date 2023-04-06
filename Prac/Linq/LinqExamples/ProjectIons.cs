@@ -32,24 +32,24 @@ namespace Linq.LinqExamples
 
         public int SelectProperty()
         {
-            #region select-property
+          
             List<Product> products = GetProductList();
 
             var productNames = from p in products
-                               select p.ProductName;
+                               select ( p.ProductName, p.UnitPrice );
 
             Console.WriteLine("Product Names:");
             foreach (var productName in productNames)
             {
                 Console.WriteLine(productName);
             }
-            #endregion
+            
             return 0;
         }
 
         public int TransformWithSelect()
         {
-            #region select-transform
+           
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
             string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
@@ -61,13 +61,13 @@ namespace Linq.LinqExamples
             {
                 Console.WriteLine(s);
             }
-            #endregion
+        
             return 0;
         }
 
         public int SelectByCaseAnonymous()
         {
-            #region select-case-anonymous
+           
             string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
 
             var upperLowerWords = from w in words
@@ -77,25 +77,11 @@ namespace Linq.LinqExamples
             {
                 Console.WriteLine($"Uppercase: {ul.Upper}, Lowercase: {ul.Lower}");
             }
-            #endregion
+           
             return 0;
         }
 
-        public int SelectByCaseTuple()
-        {
-            #region select-case-tuple
-            string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
 
-            var upperLowerWords = from w in words
-                                  select (Upper: w.ToUpper(), Lower: w.ToLower());
-
-            foreach (var ul in upperLowerWords)
-            {
-                Console.WriteLine($"Uppercase: {ul.Upper}, Lowercase: {ul.Lower}");
-            }
-            #endregion
-            return 0;
-        }
 
         public int SelectAnonymousConstructions()
         {
@@ -114,26 +100,11 @@ namespace Linq.LinqExamples
             return 0;
         }
 
-        public int SelectTupleConstructions()
-        {
-            #region select-new-type-tuple
-            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-            string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-            var digitOddEvens = from n in numbers
-                                select (Digit: strings[n], Even: (n % 2 == 0));
-
-            foreach (var d in digitOddEvens)
-            {
-                Console.WriteLine($"The digit {d.Digit} is {(d.Even ? "even" : "odd")}.");
-            }
-            #endregion
-            return 0;
-        }
 
         public int SelectPropertySubset()
         {
-            #region select-subset-properties
+            
             List<Product> products = GetProductList();
 
             var productInfos = from p in products
@@ -144,25 +115,11 @@ namespace Linq.LinqExamples
             {
                 Console.WriteLine($"{productInfo.ProductName} is in the category {productInfo.Category} and costs {productInfo.Price} per unit.");
             }
-            #endregion
+            
             return 0;
         }
 
-        public int SelectWithIndex()
-        {
-            #region select-with-index
-            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
 
-            var numsInPlace = numbers.Select((num, index) => (Num: num, InPlace: (num == index)));
-
-            Console.WriteLine("Number: In-place?");
-            foreach (var n in numsInPlace)
-            {
-                Console.WriteLine($"{n.Num}: {n.InPlace}");
-            }
-            #endregion
-            return 0;
-        }
 
         public int SelectWithWhere()
         {
@@ -203,23 +160,7 @@ namespace Linq.LinqExamples
             return 0;
         }
 
-        public int SelectFromChildSequence()
-        {
-            #region select-many-drilldown
-            List<Customer> customers = GetCustomerList();
 
-            var orders = from c in customers
-                         from o in c.Orders
-                         where o.Total < 500.00M
-                         select (c.CustomerID, o.OrderID, o.Total);
-
-            foreach (var order in orders)
-            {
-                Console.WriteLine($"Customer: {order.CustomerID}, Order: {order.OrderID}, Total value: {order.Total}");
-            }
-            #endregion
-            return 1;
-        }
 
         public int SelectManyWithWhere()
         {
@@ -239,23 +180,7 @@ namespace Linq.LinqExamples
             return 0;
         }
 
-        public int SelectManyWhereAssignment()
-        {
-            #region select-many-assignment
-            List<Customer> customers = GetCustomerList();
 
-            var orders = from c in customers
-                         from o in c.Orders
-                         where o.Total >= 2000.0M
-                         select (c.CustomerID, o.OrderID, o.Total);
-
-            foreach (var order in orders)
-            {
-                Console.WriteLine($"Customer: {order.CustomerID}, Order: {order.OrderID}, Total value: {order.Total}");
-            }
-            #endregion
-            return 0;
-        }
 
         public int SelectMultipleWhereClauses()
         {
@@ -266,6 +191,7 @@ namespace Linq.LinqExamples
 
             var orders = from c in customers
                          where c.Region == "WA"
+
                          from o in c.Orders
                          where o.OrderDate >= cutoffDate
                          select (c.CustomerID, o.OrderID);
